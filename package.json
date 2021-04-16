@@ -1,0 +1,20 @@
+{
+  "name": "wss-sse-proxy",
+  "version": "1.0.0",
+  "description": "exposes WS[S] over SSE",
+  "main": "index.js",
+  "repository": "git@github.com:emanb29/wss-sse-proxy.git",
+  "author": "emanb29 <eb@ethanbell.me>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-sse": "^0.5.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
