@@ -1,14 +1,16 @@
 {
-  "name": "wss-sse-proxy",
+  "name": "certstream-sse",
   "version": "1.0.0",
-  "description": "exposes WS[S] over SSE",
+  "description": "exposes certstream WS[S] over SSE",
   "main": "index.js",
-  "repository": "git@github.com:emanb29/wss-sse-proxy.git",
+  "repository": "git@github.com:emanb29/certstream-sse.git",
   "author": "emanb29 <eb@ethanbell.me>",
   "license": "MIT",
   "dependencies": {
+    "certstream": "^1.1.1",
     "express": "^4.17.1",
-    "express-sse": "^0.5.3"
+    "express-sse": "^0.5.3",
+    "uuid": "^8.3.2"
   },
   "scripts": {
     "start": "node index.js",
